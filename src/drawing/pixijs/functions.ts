@@ -1,6 +1,6 @@
 import { interaction, Container, Point as PixiPoint, Rectangle } from 'pixi.js';
-import { Vector } from '../math/vector';
-import { Dimensions } from '../drawing/dimensions';
+import { Vector } from '../../math/vector';
+import { Dimensions } from '../../drawing/dimensions';
 
 function getTouchedPosition(evt: interaction.InteractionEvent, touchedObject: Container): Vector {
     let touchedPoint = new PixiPoint();

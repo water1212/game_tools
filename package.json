@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^13.5.0",
     "@types/pixi.js": "^5.0.0",
     "pixi.js": "^4.8.9",
     "typescript": "^3.7.5"

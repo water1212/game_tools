@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-import { Vector } from '../math/vector';
+import { Vector } from '../../math/vector';
 
 export class PixiPrimitives {
   static pixiHollowSquare(pixiRenderer: PIXI.Renderer, width: number, height: number, padding: number) : PIXI.RenderTexture {
